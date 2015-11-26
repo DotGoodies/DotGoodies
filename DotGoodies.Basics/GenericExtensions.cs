@@ -1,4 +1,4 @@
-﻿namespace DotGoodies.Basics
+namespace DotGoodies.Basics
 {
     public static class GenericExtensions
     {
@@ -12,7 +12,7 @@
             return !obj.Is<T>();
         }
 
-        public static T As<T>(object obj)
+        public static T As<T>(this object obj)
         {
             return (T) obj;
         }
