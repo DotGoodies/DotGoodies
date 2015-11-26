@@ -11,5 +11,10 @@
         {
             return !obj.Is<T>();
         }
+
+        public static T As<T>(object obj)
+        {
+            return (T) obj;
+        }
     }
 }
