@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Threading;
 
-namespace DotGoodies.Basics.Threading
+namespace DotGoodies.Threading
 {
-    //TODO [IF] - move this to threading project preserving history
     public sealed class SingleEntranceTimer : IDisposable
     {
         private const int Idle = 0;

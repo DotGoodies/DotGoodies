@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionOfDateTimeExtensions.cs" />
-    <Compile Include="ConcurrentCollectionsExtensions.cs" />
     <Compile Include="GenericExtensions.cs" />
     <Compile Include="ParameterInvariantExtensions.cs" />
     <Compile Include="EnumerableExtensions.cs" />
@@ -52,7 +51,6 @@
     <Compile Include="Range.cs" />
     <Compile Include="RuntimeClock.cs" />
     <Compile Include="StringExtensions.cs" />
-    <Compile Include="SingleEntranceTimer.cs" />
     <Compile Include="TimeSpanExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

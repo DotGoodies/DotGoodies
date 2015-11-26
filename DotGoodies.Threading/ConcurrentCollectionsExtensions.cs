@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace DotGoodies.Basics
+namespace DotGoodies.Threading
 {
     public static class ConcurrentCollectionsExtensions
     {
