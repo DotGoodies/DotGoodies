@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace DotGoodies.Threading
 {
-    internal sealed class ConcurrentQueueProcessor
+    public sealed class ConcurrentQueueProcessor
     {
         private const int DefaultQueueLength = 1024;
         private static readonly Action StopSignal = () => { };
