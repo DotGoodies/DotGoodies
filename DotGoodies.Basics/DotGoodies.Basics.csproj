@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionOfDateTimeExtensions.cs" />
+    <Compile Include="ConcurrentCollectionsExtensions.cs" />
+    <Compile Include="GenericExtensions.cs" />
     <Compile Include="ParameterInvariantExtensions.cs" />
     <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="IClock.cs" />
