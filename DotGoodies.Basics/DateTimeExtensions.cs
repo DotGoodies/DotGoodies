@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DotGoodies.Basics
 {
-    public static class CollectionOfDateTimeExtensions
+    public static class DateTimeExtensions
     {
         public static IEnumerable<TimeSpan> GetDurations(this IReadOnlyList<DateTime> timestamps, bool absolute)
         {
