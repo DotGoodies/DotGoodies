@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 namespace DotGoodies.Threading
@@ -47,7 +47,7 @@ namespace DotGoodies.Threading
             }
             finally
             {
-                Interlocked.CompareExchange(ref _state, Idle, Working);
+                Interlocked.Exchange(ref _state, Idle);
             }
         }
     }
