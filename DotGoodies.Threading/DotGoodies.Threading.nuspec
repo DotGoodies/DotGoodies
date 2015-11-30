@@ -8,7 +8,7 @@
     <owners>.Goodies</owners>
     <licenseUrl>TBD</licenseUrl>
     <projectUrl>TBD</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/DotGoodies/DotGoodies/master/DotGoodies.Basics/DotGoodiesLogo_2.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Terrarium provides a great way for developers to learn about the .NET programming model and language as they develop creatures and introduce them into a peer-to-peer ecosystem.</description>
     <releaseNotes></releaseNotes>
