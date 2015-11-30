@@ -16,7 +16,7 @@
     <tags>sdk ecosystem game directx monogame learning</tags>
   </metadata>
   <files>
-	<file src="DotGoodies.Threading\bin\$configuration$\DotGoodies.Threading.dll" target="lib\net45\" />
-	<file src="DotGoodies.Threading\bin\$configuration$\DotGoodies.Threading.pdb" target="lib\net45\" />
+	<file src="bin\$configuration$\DotGoodies.Threading.dll" target="lib\net45\" />
+	<file src="bin\$configuration$\DotGoodies.Threading.pdb" target="lib\net45\" />
   </files>
 </package>
