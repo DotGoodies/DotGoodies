@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DotGoodies.Basics</id>
+    <version>$version$</version>
+    <title>DotGoodies Basics</title>
+    <authors>.Goodies</authors>
+    <owners>.Goodies</owners>
+    <licenseUrl>TBD</licenseUrl>
+    <projectUrl>TBD</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Terrarium provides a great way for developers to learn about the .NET programming model and language as they develop creatures and introduce them into a peer-to-peer ecosystem.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; Microsoft Corporation.  All rights reserved.</copyright>
+    <tags>sdk ecosystem game directx monogame learning</tags>
+  </metadata>
+  <files>
+	<file src="DotGoodies.Basics\bin\$configuration$\DotGoodies.Basics.dll" target="lib\net45\" />
+	<file src="DotGoodies.Basics\bin\$configuration$\DotGoodies.Basics.pdb" target="lib\net45\" />
+  </files>
+</package>
