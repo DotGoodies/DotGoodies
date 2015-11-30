@@ -6,11 +6,11 @@
     <title>DotGoodies Threading</title>
     <authors>.Goodies</authors>
     <owners>.Goodies</owners>
-    <licenseUrl>TBD</licenseUrl>
-    <projectUrl>TBD</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/DotGoodies/DotGoodies</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/DotGoodies/DotGoodies/master/DotGoodies.Basics/DotGoodiesLogo_2.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Terrarium provides a great way for developers to learn about the .NET programming model and language as they develop creatures and introduce them into a peer-to-peer ecosystem.</description>
+    <description>DotGoodies.Threading provides some useful concurrency abstractions built on top of .Net threading primitives.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
     <tags>sdk ecosystem game directx monogame learning</tags>
