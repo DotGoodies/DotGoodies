@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Basics", "DotGoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Threading", "DotGoodies.Threading\DotGoodies.Threading.csproj", "{B9FFCD80-326B-4130-9BFB-204A0E41A755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Threading.UnitTests", "DotGoodies.Threading.UnitTests\DotGoodies.Threading.UnitTests.csproj", "{0ECC15F9-956D-4DA7-8E24-17525EB6A346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B9FFCD80-326B-4130-9BFB-204A0E41A755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FFCD80-326B-4130-9BFB-204A0E41A755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FFCD80-326B-4130-9BFB-204A0E41A755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECC15F9-956D-4DA7-8E24-17525EB6A346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECC15F9-956D-4DA7-8E24-17525EB6A346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECC15F9-956D-4DA7-8E24-17525EB6A346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECC15F9-956D-4DA7-8E24-17525EB6A346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

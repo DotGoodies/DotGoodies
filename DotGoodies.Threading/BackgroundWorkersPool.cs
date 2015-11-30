@@ -26,7 +26,7 @@ namespace DotGoodies.Threading
         {
             _maxCapacity = maxCapacity;
             _lastChanceExceptionHandler = lastChanceExceptionHandler;
-            _stopGuard = stopGuard.CreateChild();
+            _stopGuard = stopGuard;
         }
 
         public bool HasCapacity

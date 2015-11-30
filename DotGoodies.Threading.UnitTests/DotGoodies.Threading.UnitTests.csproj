@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B9FFCD80-326B-4130-9BFB-204A0E41A755}</ProjectGuid>
+    <ProjectGuid>{0ECC15F9-956D-4DA7-8E24-17525EB6A346}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotGoodies.Threading</RootNamespace>
-    <AssemblyName>DotGoodies.Threading</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>DotGoodies.Threading.UnitTests</RootNamespace>
+    <AssemblyName>DotGoodies.Threading.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,17 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackgroundWorkersPool.cs" />
-    <Compile Include="ConcurrentCollectionsExtensions.cs" />
-    <Compile Include="ConcurrentQueueProcessor.cs" />
-    <Compile Include="IWorkCount.cs" />
-    <Compile Include="OnDisposeAction.cs" />
+    <Compile Include="BackgroundWorkersPoolTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingleEntranceTimer.cs" />
-    <Compile Include="StopPhaseWorkCounter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DotGoodies.Threading.nuspec" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotGoodies.Basics\DotGoodies.Basics.csproj">
+      <Project>{ace70fcf-e330-427c-aed9-d9410b26e111}</Project>
+      <Name>DotGoodies.Basics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotGoodies.Threading\DotGoodies.Threading.csproj">
+      <Project>{b9ffcd80-326b-4130-9bfb-204a0e41a755}</Project>
+      <Name>DotGoodies.Threading</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
