@@ -13,7 +13,7 @@
     <description>DotGoodies.Basics provides some simple yet useful extensions for .Net framework class libraries.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright &#x00A9; Microsoft Corporation.  All rights reserved.</copyright>
-    <tags>sdk ecosystem game directx monogame learning</tags>
+    <tags>.net extensions</tags>
   </metadata>
   <files>
 	<file src="bin\$configuration$\DotGoodies.Basics.dll" target="lib\net45\" />

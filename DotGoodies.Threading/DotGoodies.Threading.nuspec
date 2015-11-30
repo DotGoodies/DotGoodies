@@ -13,7 +13,7 @@
     <description>DotGoodies.Threading provides some useful concurrency abstractions built on top of .Net threading primitives.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
-    <tags>sdk ecosystem game directx monogame learning</tags>
+    <tags>.net threading concurrency</tags>
   </metadata>
   <files>
 	<file src="bin\$configuration$\DotGoodies.Threading.dll" target="lib\net45\" />
