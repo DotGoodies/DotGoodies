@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
+using DotGoodies.Basics;
 
 namespace DotGoodies.Threading
 {
@@ -22,13 +23,15 @@ namespace DotGoodies.Threading
 
         private StopPhaseWorkCounter(Thread ownerThread)
         {
-            _ownerThread = ownerThread;
+            _ownerThread = ownerThread.NotNull(nameof(ownerThread));
         }
 
         private StopPhaseWorkCounter(StopPhaseWorkCounter parent, Thread creatingThread)
+            :this(Thread.CurrentThread)
         {
             if(!ReferenceEquals(_ownerThread, creatingThread))
-                throw new ArgumentException("Initialization of a child counter should happen in the same root as parent.");
+                throw new ArgumentException(
+                    $"Initialization of a child counter should happen in the same thread '{_ownerThread.Name}' as parent '{creatingThread.Name}'.");
 
             _ownerThread = creatingThread;
             parent._children.Add(this);

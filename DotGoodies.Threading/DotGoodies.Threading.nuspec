@@ -16,7 +16,7 @@
     <tags>.net threading concurrency</tags>
   </metadata>
   <files>
-	<file src="bin\$configuration$\DotGoodies.Threading.dll" target="lib\net45\" />
-	<file src="bin\$configuration$\DotGoodies.Threading.pdb" target="lib\net45\" />
+    <file src="bin\$configuration$\DotGoodies.Threading.dll" target="lib\net45\" />
+    <file src="bin\$configuration$\DotGoodies.Threading.pdb" target="lib\net45\" />
   </files>
 </package>

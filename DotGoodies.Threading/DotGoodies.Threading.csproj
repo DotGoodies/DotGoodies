@@ -53,6 +53,12 @@
   <ItemGroup>
     <None Include="DotGoodies.Threading.nuspec" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotGoodies.Basics\DotGoodies.Basics.csproj">
+      <Project>{ace70fcf-e330-427c-aed9-d9410b26e111}</Project>
+      <Name>DotGoodies.Basics</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

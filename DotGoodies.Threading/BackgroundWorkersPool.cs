@@ -13,20 +13,20 @@ namespace DotGoodies.Threading
         private readonly IWorkCount _stopGuard;
         private readonly Action<Exception> _lastChanceExceptionHandler;
 
-        public BackgroundWorkersPool(int maxCapacity, IWorkCount stopGuard) 
-            : this(maxCapacity, stopGuard, DefaultExceptionHandler)
+        public BackgroundWorkersPool(int maxCapacity, IWorkCount parentStopGuard) 
+            : this(maxCapacity, parentStopGuard, DefaultExceptionHandler)
         {
             
         }
 
         public BackgroundWorkersPool(
             int maxCapacity, 
-            IWorkCount stopGuard, 
+            IWorkCount parentStopGuard, 
             Action<Exception> lastChanceExceptionHandler)
         {
             _maxCapacity = maxCapacity;
             _lastChanceExceptionHandler = lastChanceExceptionHandler;
-            _stopGuard = stopGuard;
+            _stopGuard = parentStopGuard.CreateChild();
         }
 
         public bool HasCapacity
